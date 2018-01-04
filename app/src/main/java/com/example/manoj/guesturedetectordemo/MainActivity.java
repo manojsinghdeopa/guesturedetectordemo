@@ -102,6 +102,7 @@ public class MainActivity extends AppCompatActivity implements  GestureDetector.
             return true;
         }
 
+
         if(motionEvent2.getX() - motionEvent1.getX() > 50) {
 
             Toast.makeText(MainActivity.this, " Swipe Right ", Toast.LENGTH_LONG).show();
